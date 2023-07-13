@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - it prints "Programming is like building a multilingual puzzle
+ * main - prints Programming is like building a multilingual puzzle.
+ * Using puts instead of printf
  */
 int main(void)
 {
