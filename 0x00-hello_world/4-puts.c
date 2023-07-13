@@ -1,3 +1,4 @@
+/* This prgrame Prints a string*/
 #include <stdio.h>
 #include <string.h>
 
