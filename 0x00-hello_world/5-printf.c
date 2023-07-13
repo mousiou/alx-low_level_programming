@@ -2,7 +2,7 @@
 
 /**
  * main - prints the phrase with proper grammar,
- * Description: but the outcome is a piece of art,
+ * Return: but the outcome is a piece of art,
  */
 int main(void)
 {
