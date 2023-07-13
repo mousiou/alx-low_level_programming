@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 
 	/**
 	 * This program prints a string
 	 */
 int main(void)
 {
-char str1[52];
-strcpy(str1, "\"Programming is like building a multilingual puzzle");
-puts(str1);
-return (0);
+	puts(str1, "\"Programming is like building a multilingual puzzle");
+	return (0);
 }
