@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-/* This prgrame Prints a string*/
+	/**
+	 * This program prints a string
+	 */
 int main(void)
 {
 char str1[52];
