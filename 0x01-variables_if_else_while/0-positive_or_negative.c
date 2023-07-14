@@ -4,7 +4,7 @@
 
 /**
  * main - this program prints a random number
- * Descripion: The output of the program should be:
+ * Description: The output of the program should be:
  * The number, followed by
  * if the number is greater than 0: is positive
  * if the number is 0: is zero
@@ -20,11 +20,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n >= 0)
 	{
-	printf("%d is positive \n", n);
+	printf("%d is positive", n);
 	}
 	else
 	{
-	printf("%d is negative \n", n);
+	printf("%d is negative", n);
 	}
 	return (0);
 }
