@@ -4,7 +4,7 @@
 
 /**
  * main - this program prints a random number
- * Description: The output of the program should be:
+ * Description: The output of the program should be
  * The number, followed by
  * if the number is greater than 0: is positive
  * if the number is 0: is zero
