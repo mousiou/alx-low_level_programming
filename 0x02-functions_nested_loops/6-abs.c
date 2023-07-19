@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - This program returns absolute value of the input
- * @n:
+ * @n: variable
  * Return: the abs of n
  */
 
