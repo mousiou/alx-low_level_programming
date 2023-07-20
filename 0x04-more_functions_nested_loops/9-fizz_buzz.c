@@ -4,8 +4,8 @@
 /**
  * main - This program prints the numbers from 1 to 100
  * Return: number
- * 	Fizz if the number multiplies of three
- * 	Buzz if the number multiplies both five and three
+ * Fizz if the number multiplies of three
+ * Buzz if the number multiplies both five and three
  */
 int main(void)
 {
