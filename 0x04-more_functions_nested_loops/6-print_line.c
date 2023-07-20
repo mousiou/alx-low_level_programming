@@ -4,7 +4,6 @@
 /**
  * print_line - This program Prints line dependent on the variable n.
  * @n : Variable indicaing how many '_' to print
- * 
  */
 void print_line(int n)
 {
