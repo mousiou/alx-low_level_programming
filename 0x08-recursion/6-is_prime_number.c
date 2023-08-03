@@ -6,6 +6,7 @@ int tmp_prime(int n, int i);
  * acprime - This function calculates if a number is prime recursively
  * @n: integer parameter
  * @m: integer parameter
+ * Return: 1 if true, else 0
  */
 
 int acprime(int n, int m)
@@ -27,6 +28,7 @@ int acprime(int n, int m)
 /**
  * is_prime_number - This function checks if a number is prime
  * @n: integer parameter
+ * Return: 1 if true, else 0
  */
 
 int is_prime_number(int n)

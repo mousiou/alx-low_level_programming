@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - This the main function
  * @n: int n
+ * Return: result square root
  */
 int _sqrt_recursion(int n)
 {
@@ -10,9 +11,10 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * sqrt_recursion - This program recurses to find the natural
+ * _sqrt - This program recurses to find the natural
  * @n: integer paramtr
  * @i: integer parameter
+ * Return: result square root
  */
 int _sqrt(int n, int i)
 {
