@@ -5,10 +5,8 @@
  * raised to the power of y
  * @x: integer parameter
  * @y: integer parameter
-:x
-
+ * Return: result of power
  */
-
 
 int _pow_recursion(int x, int y)
 {
