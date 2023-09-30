@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - main function
  * Description: This program prints all possible
  * different combinations of three digits
  * Return: 0
  */
-int main()
+int main(void)
 {
-	for(int i = 0 ; i < 10 ; i++)
+	for (int i = 0 ; i < 10 ; i++)
 	{
-		for(int j = 0 ; j < 10 ; j++)
+		for (int j = 0 ; j < 10 ; j++)
 		{
-			for(int x = 0 ; x < 10 ; x++)
+			for (int x = 0 ; x < 10 ; x++)
 			{
-				if(x != j && j != i && i < j && j < x )
+				if (x != j && j != i && i < j && j < x)
 				{
 					putchar('0' + i);
 					putchar('0' + j);
@@ -29,5 +30,5 @@ int main()
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
