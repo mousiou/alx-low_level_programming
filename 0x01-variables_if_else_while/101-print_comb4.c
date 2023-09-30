@@ -10,12 +10,15 @@
 int main(void)
 {
 	int i = 0;
+
 	while (i < 10)
 	{
 		int j = 0;
+
 		while (j < 10)
 		{
 			int x = 0;
+
 			while (x < 10)
 			{
 				if (x != j && j != i && i < j && j < x)
