@@ -26,14 +26,18 @@ int main(void)
 					putchar('0' + i);
 					putchar('0' + j);
 					putchar('0' + x);
+
 					if (x + j + i != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				x++;
 			}
+			j++;
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
