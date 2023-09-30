@@ -7,10 +7,12 @@
  */
 int main(void)
 {
-
-	for (int i = 0; i <= 99; i++)
+	
+	int i = 0;
+	while (i <= 99)
 	{
-		for (int j = i; j <= 99; j++)
+		int j = 0;
+		while (j <= 99)
 		{
 			if (j != i)
 			{
