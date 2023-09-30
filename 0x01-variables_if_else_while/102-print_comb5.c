@@ -16,7 +16,7 @@ int main(void)
 
 		while (j <= 99)
 		{
-			if (j != i)
+			if (j < i)
 			{
 				putchar(i / 10 + 48);
 				putchar(i % 10 + 48);
