@@ -4,7 +4,7 @@ void _const(void) __attribute__ ((constructor));
 
 /**
  * _const - executes before main
- * 
+ *
  * Return: void
  */
 void _const(void)
